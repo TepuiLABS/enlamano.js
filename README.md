@@ -4,9 +4,9 @@
 #### instalación
 
 ```bash
-npm install enlamano.js
+npm install @tepuilabsdev/enlamano
 // o con yarn
-yarn add enlamano.js
+yarn add @tepuilabsdev/enlamano
 ```
 
 
@@ -15,7 +15,7 @@ yarn add enlamano.js
 
 
 ```javascript
-import enlamano from 'enlamano.js';
+import enlamano from '@tepuilabsdev/enlamano';
 
 const mano = enlamano(
     "<usuario>",
