@@ -17,8 +17,6 @@ yarn add enlamano.js
 ```javascript
 import enlamano from 'enlamano.js';
 
-const enlamano = require("enlamano.js");
-
 const mano = enlamano(
     "<usuario>",
     "<paswword>",
