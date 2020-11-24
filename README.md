@@ -57,7 +57,7 @@ r.then((data) => {
 
 #### ejemplo de respuestas
 
-```json
+```javascript
 {
   accion: 'SIN OFERTA PARA ESTE CLIENTE',
   oferta: '',
@@ -70,7 +70,7 @@ r.then((data) => {
 ```
 
 
-```json
+```javascript
 {
   accion: 'CALCULAR OFERTA',
   oferta: '18000',
@@ -105,7 +105,7 @@ r.then((data) => {
 
 #### errores
 
-```json
+```javascript
 {
   errores: [ { codigo: 'Documento', mensaje: 'El documento es requerido.' } ]
 }
