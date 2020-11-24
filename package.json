@@ -1,0 +1,38 @@
+{
+    "name": "enlamano.js",
+    "version": "1.0.0",
+    "description": "Pequeña librería para consumir los servicios de la financiera enlamano.com.uy",
+    "main": "index.js",
+    "keywords": [
+        "financieras",
+        "uruguay"
+    ],
+    "author": "Angel Cruz <bullgram@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "watch": "node_modules/.bin/babel enlamano.js -w -o index.js",
+        "compile": "node_modules/.bin/babel enlamano.js -o index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.12.8",
+        "@babel/core": "^7.12.8",
+        "@babel/plugin-transform-runtime": "^7.12.1",
+        "@babel/preset-env": "^7.12.7",
+        "axios": "^0.21.0",
+        "babel-plugin-add-module-exports": "^1.0.4"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
