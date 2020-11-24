@@ -1,5 +1,5 @@
 {
-    "name": "enlamano.js",
+    "name": "@tepuilabsdev/enlamano",
     "version": "1.0.0",
     "description": "Pequeña librería para consumir los servicios de la financiera enlamano.com.uy",
     "main": "index.js",
@@ -10,8 +10,8 @@
     "author": "Angel Cruz <bullgram@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "watch": "node_modules/.bin/babel enlamano.js -w -o index.js",
-        "compile": "node_modules/.bin/babel enlamano.js -o index.js",
+        "watch": "babel enlamano.js -w -o index.js",
+        "compile": "babel enlamano.js -o index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {},
@@ -34,5 +34,13 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TepuiLABS/enlamano.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TepuiLABS/enlamano.js/issues"
+    },
+    "homepage": "https://github.com/TepuiLABS/enlamano.js#readme"
 }
