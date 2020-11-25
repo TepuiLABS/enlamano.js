@@ -6,7 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/TepuiLABS/enlamano.js?style=flat-square)](https://github.com/TepuiLABS/enlamano.js/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TepuiLABS/enlamano.js?style=flat-square)](https://github.com/TepuiLABS/enlamano.js/network)
 [![GitHub stars](https://img.shields.io/github/stars/TepuiLABS/enlamano.js?style=flat-square)](https://github.com/TepuiLABS/enlamano.js/stargazers)
-
+[![](https://data.jsdelivr.com/v1/package/npm/@tepuilabsdev/enlamano/badge)](https://www.jsdelivr.com/package/npm/@tepuilabsdev/enlamano)
 ---
 
 #### instalación
