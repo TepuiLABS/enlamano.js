@@ -1,6 +1,6 @@
 {
     "name": "@tepuilabsdev/enlamano",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Pequeña librería para consumir los servicios de la financiera enlamano.com.uy",
     "main": "index.js",
     "keywords": [
@@ -14,8 +14,8 @@
         "compile": "babel enlamano.js -o index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "dependencies": {},
-    "devDependencies": {
+    "devDependencies": {},
+    "dependencies": {
         "@babel/cli": "^7.12.8",
         "@babel/core": "^7.12.8",
         "@babel/plugin-transform-runtime": "^7.12.1",
