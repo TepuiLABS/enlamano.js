@@ -1,5 +1,13 @@
-### enlamano.js
+## enlamano.js
 
+[![NPM version](https://img.shields.io/npm/v/@tepuilabsdev/enlamano?style=flat-square)](https://www.npmjs.com/package/@tepuilabsdev/enlamano)
+[![NPM downloads](https://img.shields.io/npm/dt/@tepuilabsdev/enlamano?style=flat-square)](https://www.npmjs.com/package/@tepuilabsdev/enlamano)
+[![NPM](https://img.shields.io/npm/l/@tepuilabsdev/enlamano?style=flat-square)](https://www.npmjs.com/package/@tepuilabsdev/enlamano)
+[![GitHub issues](https://img.shields.io/github/issues/TepuiLABS/enlamano.js?style=flat-square)](https://github.com/TepuiLABS/enlamano.js/issues)
+[![GitHub forks](https://img.shields.io/github/forks/TepuiLABS/enlamano.js?style=flat-square)](https://github.com/TepuiLABS/enlamano.js/network)
+[![GitHub stars](https://img.shields.io/github/stars/TepuiLABS/enlamano.js?style=flat-square)](https://github.com/TepuiLABS/enlamano.js/stargazers)
+
+---
 
 #### instalación
 
@@ -38,9 +46,9 @@ let params = {
 
 const r = mano.request(params);
 
-r.then((data) => {
-    console.log(data);
-});
+r
+.then((data) => console.log(data))
+.catch((error) => console.error(error));
 
 ```
 
