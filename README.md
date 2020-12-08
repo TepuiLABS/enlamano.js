@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="en-la-mano.png" width="1024">
+</p>
+
 ## enlamano.js
 
 [![NPM version](https://img.shields.io/npm/v/@tepuilabsdev/enlamano?style=flat-square)](https://www.npmjs.com/package/@tepuilabsdev/enlamano)
@@ -57,9 +61,6 @@ r
 - Sexo - int (1 - Mujer, 2 - Hombre)
 - Region - int (1 - Montevideo, 2 - Interior)
 - Edad - int
-
-
-
 
 #### ejemplo de respuestas
 
