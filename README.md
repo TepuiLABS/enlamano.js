@@ -22,7 +22,6 @@ yarn add @tepuilabsdev/enlamano
 ```
 
 
-
 #### como usar
 
 
@@ -114,8 +113,14 @@ r
 
 ```javascript
 {
-  errores: [ { codigo: 'Documento', mensaje: 'El documento es requerido.' } ]
+    errores: [
+        {
+            codigo: "Documento",
+            mensaje: "El documento es requerido.",
+        },
+    ];
 }
+
 ```
 
 hay otro tipo de errores que se controlan por códigos http
